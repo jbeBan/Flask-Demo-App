@@ -1,0 +1,8 @@
+# VS Code Settings
+.vscode
+
+# Virtual Environment
+venv
+
+# Byte-compiled
+__pycache__

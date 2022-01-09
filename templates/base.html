@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Market Data</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap">
+  <!-- CSS Frameworks -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='favicon/apple-touch-icon.png') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon-32x32.png') }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='favicon/favicon-16x16.png') }}">
+  <link rel="manifest" href="{{ url_for('static', filename='favicon/site.webmanifest') }}">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body class="w3-black">
+
+  <!-- Navbar -->
+  <div class="w3-top w3-large">
+    <nav class="w3-bar w3-red">
+      <a href="/" class="w3-bar-item w3-button">Market Data</a>
+      <div class="w3-right">
+        <a href="/summary" class="w3-bar-item w3-button">Summary</a>
+        <a href="/dates" class="w3-bar-item w3-button">Dates</a>
+        <a href="/payments" class="w3-bar-item w3-button">Payments</a>
+        <a href="/customers" class="w3-bar-item w3-button">Customers</a>
+      </div>
+    </nav>
+  </div>
+  <!-- Filler for Layout -->
+  <div class="w3-large" id="top">
+    <nav class="w3-bar w3-red">
+      <a class="w3-bar-item w3-button">filler</a>
+    </nav>
+  </div>
+
+  <div class="w3-padding-32" id="mainContent">
+  {% block content %}
+
+
+  {% endblock %}
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-bar w3-padding w3-center w3-red w3-large">
+    <a href="#top" class="w3-button w3-margin-top w3-white"><i class="fa fa-arrow-up w3-margin-right"></i>Back to the top</a>
+    <p>Market Data &copy; - <i>"Data that's easy to work with."</i></p>
+  </footer>
+
+</body>
+</html>
