@@ -38,4 +38,9 @@ def payments():
 
 @app.route("/customers")
 def customers():
-  return render_template("customers.html")
+  customers = None
+  with open("order_report.txt", 'r') as f:
+    customers = f.read()
+    customers = re.findall(r'Customer ID #[0-9]{6}:\n.+\n.+\n[a-zA-Z ]+, [A-Z]{2} [0-9]{5}', customers)
+
+  return render_template("customers.html", customers=customers)
