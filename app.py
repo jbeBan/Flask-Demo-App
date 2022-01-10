@@ -29,7 +29,12 @@ def dates():
 
 @app.route("/payments")
 def payments():
-  return render_template("payments.html")
+  payments = None
+  with open("order_report.txt", 'r') as f:
+    payments = f.read()
+    payments = re.findall(r'Amount: \$[\d]+\.[\d]+, Paid by .+', payments)
+
+  return render_template("payments.html", payments=payments)
 
 @app.route("/customers")
 def customers():
