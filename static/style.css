@@ -13,3 +13,7 @@ body, html {
   flex-direction: column;
   justify-content: space-around;
 }
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+}
