@@ -1,4 +1,5 @@
 from flask import Flask, url_for, render_template
+import re
 
 
 app = Flask(__name__)
@@ -19,7 +20,12 @@ def summary():
 
 @app.route("/dates")
 def dates():
-  return render_template("dates.html")
+  dates = None
+  with open("order_report.txt", 'r') as f:
+    dates = f.read()
+    dates = re.findall(r'Order #[\d]+, Date: [\d]+-[\d]+-[\d]+', dates)
+
+  return render_template("dates.html", dates=dates)
 
 @app.route("/payments")
 def payments():
