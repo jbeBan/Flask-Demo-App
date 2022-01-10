@@ -10,7 +10,12 @@ def index():
 
 @app.route("/summary")
 def summary():
-  return render_template("summary.html")
+  orders = None
+  with open("order_report.txt", 'r') as f:
+    orders = f.read()
+    orders = orders.split("===========================")[1:]
+
+  return render_template("summary.html", orders=orders)
 
 @app.route("/dates")
 def dates():
