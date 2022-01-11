@@ -1,20 +1,13 @@
 ===========================
 Order #1, Date: 2020-03-15
-Amount: $100.23, Paid by Credit card 373975319551257, exp. 12-2023
+Amount: $934.62, Paid by Debit card 484985439553258, exp. 06-2021
 
-Customer ID #762212:
-Yolanda McAlarney, ph. 505-136-7715, email: ymcalarney2u@wordpress.com
+Customer ID #709959:
+Abbot Costello, ph. 404-123-8816, email: acostello@outlook.com
 705 Corscot Hill
 Albuquerque, NM 87190
 
 Order Detail:
-       Item 10951: "Syrup - Monin Swiss Choclate", 3 @ 3.00
-       Item 16736: "Wine - Red Cooking", 1 @ 2.00
-       Item 16974: "Pastry - Lemon Danish - Mini", 3 @ 1.19
-       Item 23022: "Beef - Short Ribs", 1 @ 5.00
-       Item 26461: "Bread - Crumbs Bulk", 1 @ 3.00
-       Item 26860: "Waffle Stix", 2 @ 2.99
-       Item 27515: "Longos - Burritos", 2 @ 4.00
        Item 29286: "Lemonade - Strawberry 591 Ml", 2 @ 2.25
        Item 32641: "Pie Filling - Cherry", 3 @ 0.89
        Item 39096: "Oil - Peanut", 1 @ 0.95
@@ -29,18 +22,14 @@ Order Detail:
 
 ===========================
 Order #2, Date: 2020-03-15
-Amount: $74.48, Paid by Credit card 201741963232463, exp. 02-2022
+Amount: $64.92, Paid by Credit card 362852373997410, exp. 01-2025
 
-Customer ID #258572:
-Garey Baraja, ph. 260-560-6065, email: gbaraja5r@fda.gov
+Customer ID #459571:
+Rijana Zakfet, ph. 371-492-8189, email: rijzak@wordpress.com
 42 Kenwood Parkway
 Fort Wayne, IN 46862
 
 Order Detail:
-       Item 18329: "Scallops - In Shell", 1 @ 4.49
-       Item 21316: "Tomatoes - Roma", 3 @ 2.50
-       Item 22248: "Basil - Seedlings Cookstown", 2 @ 3.89
-       Item 30346: "Pasta - Orzo Dry", 1 @ 0.99
        Item 37948: "Shrimp - Black Tiger 16/20", 3 @ 7.60
        Item 47680: "Sandwich Wrap", 3 @ 2.00
        Item 56107: "Numi - Assorted Teas", 1 @ 5.99
@@ -54,17 +43,14 @@ Order Detail:
 
 ===========================
 Order #3, Date: 2020-03-15
-Amount: $69.47, Paid by Paypal ID: cfeeham3s
+Amount: $101.22, Paid by Paypal ID: qinassip
 
 Customer ID #857003:
-Anjela Lippingwell, ph. 404-684-7296, email: alippingwell3s@psu.edu
+Qinassi Pujat, ph. 678-928-4310, email: qinassip@byu.edu
 304 Algoma Road
 Gainesville, GA 30506
 
 Order Detail:
-       Item 12946: "Hagen Daza - Dk Choocolate", 3 @ 5.99
-       Item 15134: "Cleaner - Pine Sol", 2 @ 2.39
-       Item 15138: "Flour - Rye", 1 @ 4.00
        Item 16655: "Soup - Campbells Chicken Noodle", 1 @ 1.19
        Item 46883: "Sea Bass - Fillets", 2 @ 5.39
        Item 54452: "Bananas", 3 @ 0.79
@@ -97,11 +83,6 @@ Order Detail:
        Item 54044: "Sole - Fillet", 3 @ 3.99
        Item 56826: "Flour - Bread", 2 @ 4.00
        Item 63636: "Nut - Pecan Pieces", 1 @ 4.05
-       Item 82831: "Cake - Dulce De Leche", 1 @ 4.99
-       Item 83203: "Bread - Granary Small Pull", 1 @ 3.00
-       Item 89921: "Clams - Littleneck Whole", 2 @ 6.88
-       Item 93268: "Chocolate Bar - Coffee Crisp", 2 @ 1.50
-       Item 99771: "Soup - Campbells Lentil", 3 @ 1.19
 
 ===========================
 Order #5, Date: 2020-03-17
@@ -8813,9 +8794,9 @@ Order Detail:
 
 ===========================
 Order #319, Date: 2020-08-20
-Amount: $23.16, Paid by Wire transfer from Bank ID 37-8068368, Account# 49288-0362
+Amount: $99.71, Paid by Wire transfer from Bank ID 41-9059277, Account# 50199-1271
 
-Customer ID #143674:
+Customer ID #2515845:
 Waly McDirmid, ph. 212-772-7969, email: wmcdirmid71@mac.com
 4 Spaight Terrace
 Brooklyn, NY 11247
