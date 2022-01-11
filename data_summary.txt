@@ -165,7 +165,7 @@ Order Detail:
 
 ===========================
 Order #8, Date: 2020-03-18
-Amount: $113.63, Paid by Wire transfer from Bank ID 72-2201515, Account# 68196-140
+Amount: $467.24, Paid by Wire transfer from Bank ID 72-2201515, Account# 68196-140
 
 Customer ID #217686:
 Marisa Gossipin, ph. 239-305-6322, email: mgossipin1b@fema.gov
@@ -16676,16 +16676,14 @@ Order Detail:
 
 ===========================
 Order #609, Date: 2020-12-30
-Amount: $101.69, Paid by Credit card 3538527630422753, exp. 04-2024
+Amount: $243.78, Paid by Dedit card 3538527630422753, exp. 10-2021
 
-Customer ID #409485:
-Jaye Martinho, ph. 361-111-4183, email: jmartinho7x@dion.ne.jp
+Customer ID #241759:
+Kate Salinger, ph. 222-111-4444, email: katesal@gmail.com
 2339 Magdeline Plaza
 Corpus Christi, TX 78410
 
 Order Detail:
-       Item 12527: "Bagelers - Cinn / Brown Sugar", 3 @ 3.99
-       Item 12568: "Cabbage - Red", 2 @ 0.69
        Item 16724: "Blueberries", 3 @ 2.99
        Item 17981: "Halibut - Fletches", 1 @ 8.00
        Item 32641: "Pie Filling - Cherry", 3 @ 0.89
@@ -16700,6 +16698,3 @@ Order Detail:
        Item 80145: "Bread - Country Roll", 2 @ 2.29
        Item 81169: "Table Cloth 90x90 White", 1 @ 3.99
        Item 86456: "Rice - Long Grain", 1 @ 2.29
-       Item 86494: "Crackers - Trio", 2 @ 2.35
-       Item 95662: "Garlic Powder", 3 @ 2.99
-
