@@ -10,6 +10,8 @@ A simple Flask application to demonstrate its use.
 
 ## How to Download and Run the App
 
+You must have Python installed and set as a PATH variable for the following instructions to work. If you get an error stating `Python was not found;` when running the first command, try replacing `python` with `python3`.
+
 > ### Download
 > ---
 > To download the app, click on the `Code` button and select the `Download ZIP` option. Make sure to save the zip file somewhere that is easy to reach with the command line/bash. After saving the zip file to your desired location, extract the zip file.
