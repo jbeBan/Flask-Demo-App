@@ -18,7 +18,7 @@ You must have Python installed and set as a PATH variable for the following inst
 
 > ### Run
 > ---
-> To run the app, open the extracted folder with git bash (the following commands have only been tested in git bash and will not work in command line/powershell, but they might work in linux) and run the following commands:
+> To run the app, open the folder within extracted folder with git bash (the following commands have only been tested in git bash and will not work in command line/powershell, but they might work in linux) and run the following commands:
 >
 > `python -m venv venv # Creates a virtual environment`
 > 
