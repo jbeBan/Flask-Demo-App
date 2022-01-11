@@ -12,7 +12,7 @@ def index():
 @app.route("/summary")
 def summary():
   orders = None
-  with open("order_report.txt", 'r') as f:
+  with open("data_summary.txt", 'r') as f:
     orders = f.read()
     orders = orders.split("===========================")[1:]
 
@@ -21,7 +21,7 @@ def summary():
 @app.route("/dates")
 def dates():
   dates = None
-  with open("order_report.txt", 'r') as f:
+  with open("data_summary.txt", 'r') as f:
     dates = f.read()
     dates = re.findall(r'Order #[\d]+, Date: [\d]+-[\d]+-[\d]+', dates)
 
@@ -30,7 +30,7 @@ def dates():
 @app.route("/payments")
 def payments():
   payments = None
-  with open("order_report.txt", 'r') as f:
+  with open("data_summary.txt", 'r') as f:
     payments = f.read()
     payments = re.findall(r'Amount: \$[\d]+\.[\d]+, Paid by .+', payments)
 
@@ -39,7 +39,7 @@ def payments():
 @app.route("/customers")
 def customers():
   customers = None
-  with open("order_report.txt", 'r') as f:
+  with open("data_summary.txt", 'r') as f:
     customers = f.read()
     customers = re.findall(r'Customer ID #[0-9]{6}:\n.+\n.+\n[a-zA-Z ]+, [A-Z]{2} [0-9]{5}', customers)
 
