@@ -4,7 +4,7 @@ A simple Flask application to demonstrate its use.
 
 ---
 
-**NOTE: None of the information presented and/or contained within this project is meant to represent real and/or established companies/organizations and has all been generated as mock data. If for some reason the data contained within order_report.txt represents your information, feel free to contact me and I will remove it.**
+**NOTE: None of the information presented and/or contained within this project is meant to represent real and/or established companies/organizations and has all been generated as mock data. If for some reason the data contained within data_summary.txt represents your information, feel free to contact me and I will remove it.**
 
 ---
 
@@ -18,7 +18,7 @@ You must have Python installed and set as a PATH variable for the following inst
 
 > ### Run
 > ---
-> To run the app, open the extracted folder with git bash (the following commands have only been tested in git bash and will not work in command line/powershell, but they might work in linux) and run the following commands:
+> To run the app, open the folder within extracted folder with git bash (the following commands have only been tested in git bash and will not work in command line/powershell, but they might work in linux) and run the following commands:
 >
 > `python -m venv venv # Creates a virtual environment`
 > 
