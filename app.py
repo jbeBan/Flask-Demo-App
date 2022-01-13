@@ -1,12 +1,15 @@
 from flask import Flask, url_for, render_template
+from tinydb import TinyDB, Query
 import re
 
 
 app = Flask(__name__)
+db = TinyDB("market_orders.json")
 
 
 @app.route("/")
 def index():
+  print(db)
   return render_template("index.html")
 
 @app.route("/summary")
