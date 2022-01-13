@@ -9,7 +9,6 @@ db = TinyDB("market_orders.json")
 
 @app.route("/")
 def index():
-  print(db)
   return render_template("index.html")
 
 @app.route("/summary")
