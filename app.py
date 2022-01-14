@@ -21,17 +21,12 @@ def summary():
 @app.route("/dates")
 def dates():
   orders_by_date = sorted(market_orders, key=lambda x: date(int(x["date"].split("/")[2]), int(x["date"].split("/")[0]), int(x["date"].split("/")[1])))
-  
+
   return render_template("dates.html", orders_by_date=orders_by_date)
 
 @app.route("/payments")
 def payments():
-  payments = None
-  with open("data_summary.txt", 'r') as f:
-    payments = f.read()
-    payments = re.findall(r'Amount: \$[\d]+\.[\d]+, Paid by .+', payments)
-
-  return render_template("payments.html", payments=payments)
+  return render_template("payments.html", orders=market_orders)
 
 @app.route("/customers")
 def customers():
