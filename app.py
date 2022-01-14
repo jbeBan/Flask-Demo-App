@@ -4,7 +4,7 @@ import re
 
 
 app = Flask(__name__)
-db = TinyDB("market_orders.json")
+db = TinyDB("db.json")
 
 
 @app.route("/")
