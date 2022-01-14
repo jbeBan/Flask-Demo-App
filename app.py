@@ -1,4 +1,5 @@
 from flask import Flask, url_for, render_template
+from datetime import date
 from json import load
 import re
 
@@ -19,12 +20,9 @@ def summary():
 
 @app.route("/dates")
 def dates():
-  dates = None
-  with open("data_summary.txt", 'r') as f:
-    dates = f.read()
-    dates = re.findall(r'Order #[\d]+, Date: [\d]+-[\d]+-[\d]+', dates)
-
-  return render_template("dates.html", dates=dates)
+  orders_by_date = sorted(market_orders, key=lambda x: date(int(x["date"].split("/")[2]), int(x["date"].split("/")[0]), int(x["date"].split("/")[1])))
+  
+  return render_template("dates.html", orders_by_date=orders_by_date)
 
 @app.route("/payments")
 def payments():

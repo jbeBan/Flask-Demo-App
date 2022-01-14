@@ -10,11 +10,11 @@
   <div class="w3-col l1 w3-black">&nbsp;</div>
 </div>
 
-{% for date in dates %}
+{% for order in orders_by_date %}
 <div class="w3-animate-opacity w3-row w3-margin-top w3-margin-bottom">
   <div class="w3-col l1 w3-black">&nbsp;</div>
   <div class="w3-center w3-padding-large w3-col l10 w3-large w3-white">
-    <p class="w3-padding-large">{{ date }}</p>
+    <p class="w3-padding-large">Purchase ID: {{ order["purchase_id"] }}, Date: {{ order["date"] }}</p>
   </div>
   <div class="w3-col l1 w3-black">&nbsp;</div>
 </div>
