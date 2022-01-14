@@ -14,22 +14,22 @@
 <div class="w3-animate-opacity w3-row w3-margin-top w3-margin-bottom">
   <div class="w3-col l1 w3-black">&nbsp;</div>
   <div class="w3-padding-large w3-col l10 w3-large w3-white">
-    <pre class="w3-padding-large">Purchase ID: {{ order["purchase_id"] }}
-      Date: {{ order["date"] }}
-      Time: {{ order["time"] }} ({{ order["time_zone"] }})
+    <pre class="w3-padding-large"><b>Purchase ID: {{ order["purchase_id"] }}</b>
+      <b>Date:</b> {{ order["date"] }}
+      <b>Time:</b> {{ order["time"] }} ({{ order["time_zone"] }})
 
-      Amount: {{ "{:,.2f}".format(order["amount"]) }} {{ order["currency"] }}
-      Card Type: {{ order["card_type"] }}
-      Card Number: {{ order["card_number"] }}
+      <b>Amount:</b> {{ "{:,.2f}".format(order["amount"]) }} {{ order["currency"] }}
+      <b>Card Type:</b> {{ order["card_type"] }}
+      <b>Card Number:</b> {{ order["card_number"] }}
 
-      Stock Name: {{ order["stock_name"] }}
-      Ticker Symbol: {{ order["stock_symbol"] }}
-      Sector: {{ order["stock_sector"] }}
+      <b>Stock Name:</b> {{ order["stock_name"] }}
+      <b>Ticker Symbol:</b> {{ order["stock_symbol"] }}
+      <b>Sector:</b> {{ order["stock_sector"] }}
 
-      Username: {{ order["username"]}}
-      Full Name: {{ order["full_name"] }}
+      <b>Username:</b> {{ order["username"]}}
+      <b>Full Name:</b> {{ order["full_name"] }}
 
-      IPv6 Address: {{ order["ipv6_address"] }}
+      <b>IPv6 Address:</b> {{ order["ipv6_address"] }}
     </pre>
   </div>
   <div class="w3-col l1 w3-black">&nbsp;</div>
