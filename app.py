@@ -28,11 +28,8 @@ def dates():
 def payments():
   return render_template("payments.html", orders=market_orders)
 
-@app.route("/customers")
-def customers():
-  customers = None
-  with open("data_summary.txt", 'r') as f:
-    customers = f.read()
-    customers = re.findall(r'Customer ID #[0-9]{6}:\n.+\n.+\n[a-zA-Z ]+, [A-Z]{2} [0-9]{5}', customers)
+@app.route("/users")
+def users():
+  users = [{"username": x["username"], "full_name": x["full_name"]} for x in market_orders]
 
-  return render_template("customers.html", customers=customers)
+  return render_template("users.html", users=users)
