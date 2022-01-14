@@ -1,10 +1,12 @@
 from flask import Flask, url_for, render_template
-from tinydb import TinyDB, Query
+from json import load
 import re
 
 
 app = Flask(__name__)
-db = TinyDB("db.json")
+
+with open("market_orders.json", 'r') as data:
+  market_orders = load(data)["market_orders"]
 
 
 @app.route("/")
@@ -13,12 +15,7 @@ def index():
 
 @app.route("/summary")
 def summary():
-  orders = None
-  with open("data_summary.txt", 'r') as f:
-    orders = f.read()
-    orders = orders.split("===========================")[1:]
-
-  return render_template("summary.html", orders=orders)
+  return render_template("summary.html", orders=market_orders)
 
 @app.route("/dates")
 def dates():
