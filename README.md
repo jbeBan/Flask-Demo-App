@@ -18,15 +18,17 @@ You must have Python installed and set as a PATH variable for the following inst
 
 > ### Run
 > ---
-> To run the app, open the folder within extracted folder with git bash (the following commands have only been tested in git bash and will not work in command line/powershell, but they might work in linux) and run the following commands:
+> To run the app, open the folder within the extracted folder with git bash (the following commands have only been tested in git bash and will not work in command line/powershell, but they might work in linux) and run the following commands:
 >
 > `python -m venv venv # Creates a virtual environment`
-> 
+>
 > `. venv/scripts/activate # Activates the virtual environment`
 >
 > `pip install -r requirements.txt # Installs the necessary packages in the virtual environment`
-> 
+>
 > `flask run # Runs the app`
+>
+> After the app is up and running (you should get a message displayed in the console that ends with ` * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`), hold the `Ctrl` or `command` key down and click on the link. You can also type in the url in a browser yourself, if you prefer to do it that way.
 
 > ### Stop
 > ---
