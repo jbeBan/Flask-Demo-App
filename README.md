@@ -41,3 +41,29 @@ You must have Python installed and set as a PATH variable for the following inst
 > `. venv/scripts/activate # Activates the virtual environment`
 >
 > `flask run # Runs the app`
+
+---
+
+## Short Clips of App in Action!
+
+---
+
+![Short Clip of App Home Page](/gifs/app-home-page.gif)
+
+---
+
+![Short Clip of App Summary Page](/gifs/app-summary-page.gif)
+
+---
+
+![Short Clip of App Dates Page](/gifs/app-dates-page.gif)
+
+---
+
+![Short Clip of App Payments Page](/gifs/app-payments-page.gif)
+
+---
+
+![Short Clip of App Users Page](/gifs/app-users-page.gif)
+
+---
